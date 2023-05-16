@@ -112,3 +112,22 @@ ul li span:hover{
     background-color: #ededed;
     border-radius: 50%;
 }
+@media screen and (max-width: 480px) {
+    body {
+    background: linear-gradient(290deg, #c19872, #7FFFD4);
+      font-size: 12px;
+      /* width: 110%; */
+    }
+    .box{
+        width: 20rem;
+        margin: 0rem 1.5rem 0 0.3rem;
+    }
+    input{
+        width: 8rem;
+    }
+    .btn{
+        width: 4rem;
+        text-align: center;
+    padding: 1rem .5rem;
+    }
+  }
